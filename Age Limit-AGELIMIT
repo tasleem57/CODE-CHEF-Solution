@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+	int lage,hage,age,i;
+	scanf("%d",&i);
+	while(i--)
+	{
+	    scanf("%d",&lage);
+	    scanf("%d",&hage);
+	    scanf("%d",&age);
+	    if((age>=lage) && (age<hage))
+	    {
+	        printf("YES\n");
+	    }
+	    else{
+	    printf("NO\n");}
+	 }
+	return 0;
+}
