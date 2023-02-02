@@ -1,0 +1,14 @@
+/* TASLEEM BANU S */
+#include <stdio.h>
+
+int main(void) {
+        int n;
+        scanf("%d",&n);
+        while(n--){
+            int x,y;
+            scanf("%d%d",&x,&y);
+            int c= x*y;
+            printf("%d\n",c);
+        }
+	return 0;
+}
